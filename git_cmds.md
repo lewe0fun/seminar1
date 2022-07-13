@@ -1,68 +1,68 @@
 # 1. Основные комманды:
 ## git add  
 
-## git status
+ 2. git status
 
-## git diff
-
-
-## git difftool
-
-## git commit
+3. git diff
 
 
-## git reset
+4. git difftool
 
-## git rm
-
-## git mv
+5. git commit
 
 
-## git clean
-## git branch
+6. git reset
 
-## git checkout
+7. git rm
 
-
-## git merge
+8. git mv
 
 
-## git mergetool
+9. git clean
+10. git branch
 
-## git log
-
-
-## git stash
+11. git checkout
 
 
-## git tag
+12. git merge
+
+
+13. git mergetool
+
+14. git log
+
+
+15. git stash
+
+
+16. git tag
 
 
 # 2. Совсместная работа:
 
 
-## git fetch
+1. git fetch
 
 
-## git pull
+2. git pull
 
 
-## git push
+3. git push
 
 
-## git remote
+4. git remote
 
 
-## git archive
+5. git archive
 
 
-## git submodule
+6. git submodule
 
 
 # 3. Осмотр и сравнение:
-## git show
+1. git show
 
 
-## git shortlog
+2. git shortlog
 
-## git describe
+3. git describe
