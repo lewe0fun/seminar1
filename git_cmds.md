@@ -99,3 +99,34 @@ Git будет игнорировать файлы и директории, пе
 $ git ls-files --others --ignored --exclude-standard
 
 Список всех игнорируемых файлов в текущем проекте
+
+# Как переименовать локальные и удаленные ветки git
+Если вы неправильно дали название ветки и поместили в удаленный репозиторий, выполните следующие шаги, пока никто из разработчиков не заметил, что вы не следовали соглашению по именованию.
+
+1. Как переименовать локальную ветку
+
+Если вы хотите переименовать ветку, на которой находитесь
+
+git branch -m new-name
+
+Если вы на другой ветке:
+
+git branch -m old-name new-name
+
+2. Удалите удаленную ветку old-name и добавьте локальную ветку new-name
+
+git push origin :old-name new-name
+
+3. Снова добавьте ветку для локальной ветки new-name
+
+Переключитесь к ветке и дальше задайте:
+
+git push origin -u new-name
+
+Как более быстрый способ, вы можете использовать следующие шаги (команда для вашего терминала):
+
+git branch -m old_branch new_branch         # Rename branch locally
+
+git push origin :old_branch                 # Delete the old branch
+
+git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
