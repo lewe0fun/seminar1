@@ -143,3 +143,10 @@ git push origin :old_branch                 # Delete the old branch
 
 git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote  
 ![final document](lewe.png)
+# GitHub:
+1. Создаем репозиторий на github вида Имя_репозитория.git
+2. git remote add origin https://github.com/lewe0fun/Имя_репозитория.git (связываание репозитоория)
+3. git branch -M main (создаем ветку main)
+4. git push -u origin main (публикуем в GitHub)
+5. git pull (локалный<-удаленный)
+6. git push (локалный->удаленный)
